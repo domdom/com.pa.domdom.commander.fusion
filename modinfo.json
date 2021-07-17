@@ -1,0 +1,17 @@
+{
+  "identifier": "com.pa.domdom.fusion_commander",
+  "context": "client",
+  "display_name": "Fusion Core Commander",
+  "description": "Adds fancy effect to the fusion commander.",
+  "author": "dom314",
+  "icon": "http://i.imgur.com/PQOpc3u.gif",
+  "priority": 105,
+  "version": "0.0.1-115923",
+  "forum": "https://forums.uberent.com/threads/rel-client-pa-c-more-pew-pew.69978/",
+  "category": [
+    "effects"
+  ],
+  "build": "115923",
+  "date": "2021-07-17",
+  "signature": " "
+}

@@ -1,0 +1,85 @@
+[
+    {
+        "target": "/src/pa/units/commanders/imperial_fusion/imperial_fusion_idle.pfx",
+        "destination": "/pa/units/commanders/imperial_fusion/imperial_fusion_idle.pfx"
+    },
+    {
+        "target": "/src/pa/units/commanders/imperial_fusion/imperial_fusion_jet.pfx",
+        "destination": "/pa/units/commanders/imperial_fusion/imperial_fusion_jet.pfx"
+    },
+    {
+        "target": "/src/pa/units/commanders/imperial_fusion/square.papa",
+        "destination": "/pa/units/commanders/imperial_fusion/square.papa"
+    },
+    {
+        "target": "/src/pa/units/commanders/imperial_fusion/torus.papa",
+        "destination": "/pa/units/commanders/imperial_fusion/torus.papa"
+    },
+    {
+        "target": "/pa/units/commanders/imperial_fusion/imperial_fusion.json",
+        "patch": [
+            {
+                "op": "add",
+                "path": "/fx_offsets",
+                "value": []
+            },
+            {
+                "op": "add",
+                "path": "/fx_offsets/-",
+                "value": {
+                    "type": "idle",
+                    "filename": "/pa/units/commanders/imperial_fusion/imperial_fusion_idle.pfx",
+                    "bone": "bone_spine",
+                    "offset": [
+                        0,
+                        -1.81,
+                        0.825
+                    ],
+                    "orientation": [
+                        0,
+                        170,
+                        0
+                    ]
+                }
+            },
+            {
+                "op": "add",
+                "path": "/fx_offsets/-",
+                "value": {
+                    "type": "idle",
+                    "filename": "/pa/units/commanders/imperial_fusion/imperial_fusion_jet.pfx",
+                    "bone": "bone_spine",
+                    "offset": [
+                        1.15,
+                        2.75,
+                        0.3
+                    ],
+                    "orientation": [
+                        0,
+                        130,
+                        0
+                    ]
+                }
+            },
+            {
+                "op": "add",
+                "path": "/fx_offsets/-",
+                "value": {
+                    "type": "idle",
+                    "filename": "/pa/units/commanders/imperial_fusion/imperial_fusion_jet.pfx",
+                    "bone": "bone_spine",
+                    "offset": [
+                        -1.15,
+                        2.75,
+                        0.3
+                    ],
+                    "orientation": [
+                        0,
+                        130,
+                        0
+                    ]
+                }
+            }
+        ]
+    }
+]
