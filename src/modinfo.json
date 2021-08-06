@@ -4,9 +4,9 @@
   "identifier": "com.pa.domdom.commander.fusion",
   "description" : "Adds fancy effect to the fusion commander.",
   "author" : "dom314",
-  "icon" : "http://i.imgur.com/PQOpc3u.gif",
+  "icon" : "https://raw.githubusercontent.com/domdom/com.pa.domdom.commander.fusion/db27fe3f31c4393672f283c71d0fbe1d2eb7eed9/src/mod_icon.jpeg",
   "priority" : 105,
-  "version": "0.0.1",
-  "forum": "https://forums.uberent.com/threads/rel-client-pa-c-more-pew-pew.69978/",
+  "version": "1.0.1",
+  "forum": "https://forums.planetaryannihilation.com/threads/client-fusion-core-commander.73562/",
   "category": [ "effects", "classic", "titans" ]
 }
